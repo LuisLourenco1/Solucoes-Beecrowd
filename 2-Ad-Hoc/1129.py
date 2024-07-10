@@ -16,7 +16,7 @@ def calculo():
                 print(chr(65 + pos))  # imprime a letra correspondente
             else:  # se não (mais de uma alternativa marcada ou nenhuma)
                 print('*')  # imprime *
-        n = int(input())  # lê o próximo n
+        n = int(input())  # lê o próximo n (número de testes)
 
 
 calculo()
