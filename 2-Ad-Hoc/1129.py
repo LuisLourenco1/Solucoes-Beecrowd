@@ -15,7 +15,7 @@ def calculo():
             if count == 1:  # se o contador for igual a 1 (somente uma alternativa marcada)
                 print(chr(65 + pos))  # imprime a letra correspondente
             else:  # se não (mais de uma alternativa marcada ou nenhuma)
-                print('*')  # imprime *
+                print('*')  # imprime '*'
         n = int(input())  # lê o próximo n (número de testes)
 
 
